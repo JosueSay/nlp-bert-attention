@@ -4,33 +4,37 @@ Capa: 8 | Cabeza: 5
 ================================================================================
 
 ORACIÓN 1:
-La madre había querido visitar a Gregorio enseguida, pero el padre y la
+La madre había querido visitar a Gregorio enseguida, pero el padre y la hermana la habían hecho desistir con argumentos que Gregorio escuchó con la mayor atención y aprobó por entero.
+Ocurrencias del token: [8, 28]
+Índice analizado: 8
 +-----------+----------+----------+------------+
 |   Ranking | Token    |   Índice |   Atención |
 +===========+==========+==========+============+
-|         1 | Gregorio |        8 |   0.883683 |
+|         1 | [SEP]    |       43 |   0.418983 |
 +-----------+----------+----------+------------+
-|         2 | [CLS]    |        0 |   0.034807 |
+|         2 | [CLS]    |        0 |   0.335413 |
 +-----------+----------+----------+------------+
-|         3 | la       |       17 |   0.024829 |
+|         3 | Gregorio |        8 |   0.146193 |
 +-----------+----------+----------+------------+
-|         4 | [SEP]    |       18 |   0.015598 |
+|         4 | Gregorio |       28 |   0.055967 |
 +-----------+----------+----------+------------+
-|         5 | a        |        7 |   0.014290 |
+|         5 | .        |       42 |   0.028545 |
 +-----------+----------+----------+------------+
 
 ORACIÓN 2:
-Gregorio! ¡Pobre hijo mío! ¿No comprendéis que necesito verle?», Gregorio
+Gregorio había bajado la sábana más que de costumbre, de modo que formara abundantes pliegues y pareciera que estaba allí por causalidad.
+Ocurrencias del token: [1]
+Índice analizado: 1
 +-----------+----------+----------+------------+
 |   Ranking | Token    |   Índice |   Atención |
 +===========+==========+==========+============+
-|         1 | Gregorio |       23 |   0.497945 |
+|         1 | [SEP]    |       37 |   0.580339 |
 +-----------+----------+----------+------------+
-|         2 | [SEP]    |       24 |   0.350170 |
+|         2 | [CLS]    |        0 |   0.195480 |
 +-----------+----------+----------+------------+
-|         3 | Gregorio |        1 |   0.115367 |
+|         3 | Gregorio |        1 |   0.139690 |
 +-----------+----------+----------+------------+
-|         4 | [CLS]    |        0 |   0.024685 |
+|         4 | .        |       36 |   0.040038 |
 +-----------+----------+----------+------------+
-|         5 | ,        |       22 |   0.004094 |
+|         5 | ##a      |       29 |   0.010330 |
 +-----------+----------+----------+------------+

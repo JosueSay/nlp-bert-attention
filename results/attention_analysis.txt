@@ -1,149 +1,165 @@
 ================================================================================
-Oración: La madre había querido visitar a Gregorio enseguida, pero el padre y la
-Tokens: ['[CLS]', 'La', 'madre', 'había', 'quer', '##ido', 'visitar', 'a', 'Gregorio', 'ens', '##egu', '##ida', ',', 'pero', 'el', 'padre', 'y', 'la', '[SEP]']
+Oración: La madre había querido visitar a Gregorio enseguida, pero el padre y la hermana la habían hecho desistir con argumentos que Gregorio escuchó con la mayor atención y aprobó por entero.
+Tokens: ['[CLS]', 'La', 'madre', 'había', 'quer', '##ido', 'visitar', 'a', 'Gregorio', 'ens', '##egu', '##ida', ',', 'pero', 'el', 'padre', 'y', 'la', 'hermana', 'la', 'habían', 'hecho', 'des', '##istir', 'con', 'argumento', '##s', 'que', 'Gregorio', 'es', '##cu', '##chó', 'con', 'la', 'mayor', 'atención', 'y', 'ap', '##robó', 'por', 'enter', '##o', '.', '[SEP]']
 ================================================================================
 
-Oración: La madre había querido visitar a Gregorio enseguida, pero el padre y la
+Oración: La madre había querido visitar a Gregorio enseguida, pero el padre y la hermana la habían hecho desistir con argumentos que Gregorio escuchó con la mayor atención y aprobó por entero.
 Token analizado: madre
+Ocurrencias del token: [2]
+Índice analizado: 2
 Capa: 2
 Cabeza: 0
 +-----------+---------+----------+------------+
 |   Ranking | Token   |   Índice |   Atención |
 +===========+=========+==========+============+
-|         1 | [SEP]   |       18 |   0.180559 |
+|         1 | [CLS]   |        0 |   0.119993 |
 +-----------+---------+----------+------------+
-|         2 | [CLS]   |        0 |   0.177115 |
+|         2 | [SEP]   |       43 |   0.063089 |
 +-----------+---------+----------+------------+
-|         3 | el      |       14 |   0.084793 |
+|         3 | hermana |       18 |   0.054056 |
 +-----------+---------+----------+------------+
-|         4 | La      |        1 |   0.069662 |
+|         4 | La      |        1 |   0.041429 |
 +-----------+---------+----------+------------+
-|         5 | pero    |       13 |   0.056462 |
+|         5 | el      |       14 |   0.034896 |
 +-----------+---------+----------+------------+
 
-Oración: La madre había querido visitar a Gregorio enseguida, pero el padre y la
+Oración: La madre había querido visitar a Gregorio enseguida, pero el padre y la hermana la habían hecho desistir con argumentos que Gregorio escuchó con la mayor atención y aprobó por entero.
 Token analizado: madre
+Ocurrencias del token: [2]
+Índice analizado: 2
 Capa: 2
 Cabeza: 5
-+-----------+---------+----------+------------+
-|   Ranking | Token   |   Índice |   Atención |
-+===========+=========+==========+============+
-|         1 | [CLS]   |        0 |   0.868022 |
-+-----------+---------+----------+------------+
-|         2 | La      |        1 |   0.055419 |
-+-----------+---------+----------+------------+
-|         3 | madre   |        2 |   0.030222 |
-+-----------+---------+----------+------------+
-|         4 | había   |        3 |   0.006172 |
-+-----------+---------+----------+------------+
-|         5 | visitar |        6 |   0.005748 |
-+-----------+---------+----------+------------+
++-----------+----------+----------+------------+
+|   Ranking | Token    |   Índice |   Atención |
++===========+==========+==========+============+
+|         1 | [CLS]    |        0 |   0.898120 |
++-----------+----------+----------+------------+
+|         2 | La       |        1 |   0.044998 |
++-----------+----------+----------+------------+
+|         3 | madre    |        2 |   0.025352 |
++-----------+----------+----------+------------+
+|         4 | Gregorio |        8 |   0.003913 |
++-----------+----------+----------+------------+
+|         5 | había    |        3 |   0.003764 |
++-----------+----------+----------+------------+
 
-Oración: La madre había querido visitar a Gregorio enseguida, pero el padre y la
+Oración: La madre había querido visitar a Gregorio enseguida, pero el padre y la hermana la habían hecho desistir con argumentos que Gregorio escuchó con la mayor atención y aprobó por entero.
 Token analizado: madre
+Ocurrencias del token: [2]
+Índice analizado: 2
 Capa: 8
 Cabeza: 0
 +-----------+---------+----------+------------+
 |   Ranking | Token   |   Índice |   Atención |
 +===========+=========+==========+============+
-|         1 | y       |       16 |   0.193714 |
+|         1 | y       |       16 |   0.171373 |
 +-----------+---------+----------+------------+
-|         2 | [SEP]   |       18 |   0.190402 |
+|         2 | habían  |       20 |   0.135717 |
 +-----------+---------+----------+------------+
-|         3 | madre   |        2 |   0.168345 |
+|         3 | el      |       14 |   0.125456 |
 +-----------+---------+----------+------------+
-|         4 | la      |       17 |   0.115696 |
+|         4 | la      |       17 |   0.123314 |
 +-----------+---------+----------+------------+
-|         5 | padre   |       15 |   0.111838 |
+|         5 | la      |       19 |   0.065824 |
 +-----------+---------+----------+------------+
 
-Oración: La madre había querido visitar a Gregorio enseguida, pero el padre y la
+Oración: La madre había querido visitar a Gregorio enseguida, pero el padre y la hermana la habían hecho desistir con argumentos que Gregorio escuchó con la mayor atención y aprobó por entero.
 Token analizado: madre
+Ocurrencias del token: [2]
+Índice analizado: 2
 Capa: 8
 Cabeza: 5
 +-----------+---------+----------+------------+
 |   Ranking | Token   |   Índice |   Atención |
 +===========+=========+==========+============+
-|         1 | [SEP]   |       18 |   0.489654 |
+|         1 | padre   |       15 |   0.374190 |
 +-----------+---------+----------+------------+
-|         2 | padre   |       15 |   0.440161 |
+|         2 | hermana |       18 |   0.373846 |
 +-----------+---------+----------+------------+
-|         3 | madre   |        2 |   0.048898 |
+|         3 | [SEP]   |       43 |   0.084659 |
 +-----------+---------+----------+------------+
-|         4 | [CLS]   |        0 |   0.019957 |
+|         4 | madre   |        2 |   0.071066 |
 +-----------+---------+----------+------------+
-|         5 | la      |       17 |   0.000886 |
+|         5 | [CLS]   |        0 |   0.038377 |
 +-----------+---------+----------+------------+
 
-Oración: La madre había querido visitar a Gregorio enseguida, pero el padre y la
+Oración: La madre había querido visitar a Gregorio enseguida, pero el padre y la hermana la habían hecho desistir con argumentos que Gregorio escuchó con la mayor atención y aprobó por entero.
 Token analizado: Gregorio
+Ocurrencias del token: [8, 28]
+Índice analizado: 8
 Capa: 2
 Cabeza: 0
 +-----------+----------+----------+------------+
 |   Ranking | Token    |   Índice |   Atención |
 +===========+==========+==========+============+
-|         1 | [CLS]    |        0 |   0.185553 |
+|         1 | [CLS]    |        0 |   0.171946 |
 +-----------+----------+----------+------------+
-|         2 | [SEP]    |       18 |   0.119846 |
+|         2 | hermana  |       18 |   0.066056 |
 +-----------+----------+----------+------------+
-|         3 | Gregorio |        8 |   0.104223 |
+|         3 | Gregorio |        8 |   0.052225 |
 +-----------+----------+----------+------------+
-|         4 | a        |        7 |   0.067379 |
+|         4 | [SEP]    |       43 |   0.038687 |
 +-----------+----------+----------+------------+
-|         5 | ,        |       12 |   0.063232 |
+|         5 | ,        |       12 |   0.036843 |
 +-----------+----------+----------+------------+
 
-Oración: La madre había querido visitar a Gregorio enseguida, pero el padre y la
+Oración: La madre había querido visitar a Gregorio enseguida, pero el padre y la hermana la habían hecho desistir con argumentos que Gregorio escuchó con la mayor atención y aprobó por entero.
 Token analizado: Gregorio
+Ocurrencias del token: [8, 28]
+Índice analizado: 8
 Capa: 2
 Cabeza: 5
 +-----------+---------+----------+------------+
 |   Ranking | Token   |   Índice |   Atención |
 +===========+=========+==========+============+
-|         1 | [CLS]   |        0 |   0.277794 |
+|         1 | [CLS]   |        0 |   0.364491 |
 +-----------+---------+----------+------------+
-|         2 | visitar |        6 |   0.223126 |
+|         2 | visitar |        6 |   0.176202 |
 +-----------+---------+----------+------------+
-|         3 | quer    |        4 |   0.099026 |
+|         3 | quer    |        4 |   0.091380 |
 +-----------+---------+----------+------------+
-|         4 | a       |        7 |   0.095589 |
+|         4 | a       |        7 |   0.080079 |
 +-----------+---------+----------+------------+
-|         5 | madre   |        2 |   0.063334 |
+|         5 | madre   |        2 |   0.067259 |
 +-----------+---------+----------+------------+
 
-Oración: La madre había querido visitar a Gregorio enseguida, pero el padre y la
+Oración: La madre había querido visitar a Gregorio enseguida, pero el padre y la hermana la habían hecho desistir con argumentos que Gregorio escuchó con la mayor atención y aprobó por entero.
 Token analizado: Gregorio
+Ocurrencias del token: [8, 28]
+Índice analizado: 8
 Capa: 8
 Cabeza: 0
 +-----------+----------+----------+------------+
 |   Ranking | Token    |   Índice |   Atención |
 +===========+==========+==========+============+
-|         1 | Gregorio |        8 |   0.621925 |
+|         1 | [CLS]    |        0 |   0.415486 |
 +-----------+----------+----------+------------+
-|         2 | a        |        7 |   0.168017 |
+|         2 | [SEP]    |       43 |   0.360334 |
 +-----------+----------+----------+------------+
-|         3 | visitar  |        6 |   0.052928 |
+|         3 | .        |       42 |   0.070425 |
 +-----------+----------+----------+------------+
-|         4 | [CLS]    |        0 |   0.035828 |
+|         4 | Gregorio |        8 |   0.038353 |
 +-----------+----------+----------+------------+
-|         5 | ,        |       12 |   0.024762 |
+|         5 | Gregorio |       28 |   0.032997 |
 +-----------+----------+----------+------------+
 
-Oración: La madre había querido visitar a Gregorio enseguida, pero el padre y la
+Oración: La madre había querido visitar a Gregorio enseguida, pero el padre y la hermana la habían hecho desistir con argumentos que Gregorio escuchó con la mayor atención y aprobó por entero.
 Token analizado: Gregorio
+Ocurrencias del token: [8, 28]
+Índice analizado: 8
 Capa: 8
 Cabeza: 5
 +-----------+----------+----------+------------+
 |   Ranking | Token    |   Índice |   Atención |
 +===========+==========+==========+============+
-|         1 | Gregorio |        8 |   0.883683 |
+|         1 | [SEP]    |       43 |   0.418983 |
 +-----------+----------+----------+------------+
-|         2 | [CLS]    |        0 |   0.034807 |
+|         2 | [CLS]    |        0 |   0.335413 |
 +-----------+----------+----------+------------+
-|         3 | la       |       17 |   0.024829 |
+|         3 | Gregorio |        8 |   0.146193 |
 +-----------+----------+----------+------------+
-|         4 | [SEP]    |       18 |   0.015598 |
+|         4 | Gregorio |       28 |   0.055967 |
 +-----------+----------+----------+------------+
-|         5 | a        |        7 |   0.014290 |
+|         5 | .        |       42 |   0.028545 |
 +-----------+----------+----------+------------+
 

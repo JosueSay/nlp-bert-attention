@@ -11,7 +11,7 @@ Este documento explica las funciones que implementan las cuatro partes del proce
 | A | Tokenizar y mostrar los tokens de cada oración | `printTokenizedCorpus` | `results/tokenization.txt` |
 | B | Ejecutar el modelo con atenciones y reportar la forma de las matrices | `getAttentions`, `printAttentionShapes` | `results/attention_shapes.txt` |
 | C | Los 5 tokens más atendidos desde 2 tokens, en 2 capas y 2 cabezas | `getTopAttention`, `printTopAttention`, `printAttentionAnalysis` | `results/attention_analysis.txt` |
-| D | Comparar dos oraciones y explicar si cambia la atención | `compareAttention` | `results/attention_comparison.txt` |
+| D | Comparar dos oraciones y explicar si cambia la atención | `compareAttention` | `results/attention_comparison_gregorio.txt`, `results/attention_comparison_madre.txt` |
 
 ## El patrón de tres celdas
 
@@ -252,11 +252,11 @@ Los parámetros `occurrence_1` y `occurrence_2` van separados porque son dos ora
 
 El diseño de la función es el que hace válida la comparación. Al fijar capa, cabeza y token, la única variable que cambia es el contexto, que es exactamente lo que la guía pide contrastar.
 
-### La celda de parámetros
+### Comparación 1: `Gregorio`, contraste de función sintáctica
 
 ```python
-sentence_1 = corpus[5]
-sentence_2 = corpus[21]
+gregorio_sentence_1 = corpus[5]
+gregorio_sentence_2 = corpus[21]
 ```
 
 El contraste es de función sintáctica sobre la misma forma superficial:
@@ -268,10 +268,41 @@ El contraste es de función sintáctica sobre la misma forma superficial:
 
 La guía propone como ejemplo un par mínimo de ambigüedad léxica (`banco` como entidad financiera o como asiento). Ese tipo de par no aparece en el fragmento de Kafka, así que el contraste se construye sobre la otra variable disponible: la misma palabra, con el mismo significado, ocupando dos funciones gramaticales distintas.
 
-La comparación se hace en la capa 8 y la cabeza 5 porque es una de las combinaciones ya inspeccionadas en la Parte C, lo que permite leer las dos partes juntas.
+Sale en `results/attention_comparison_gregorio.txt`.
+
+### Comparación 2: `madre`, contraste de contexto léxico
+
+```python
+madre_sentence_1 = corpus[5]
+madre_sentence_2 = corpus[19]
+```
+
+La segunda comparación mantiene **la misma capa y la misma cabeza** que la primera, la 8 y la 5. Lo único que cambia es el token desde el que se mira.
+
+El motivo está en los resultados de la Parte C. En `corpus[5]`, con esa misma capa y cabeza, los dos tokens analizados se comportan de forma opuesta:
+
+| Token que pregunta | Reparto principal |
+| --- | --- |
+| `Gregorio` | `[SEP]` 0,419 y `[CLS]` 0,335: más del 75 % en tokens especiales |
+| `madre` | `padre` 0,374 y `hermana` 0,374: casi el 75 % en sustantivos de parentesco |
+
+Es decir que el volcado sobre tokens especiales no es una propiedad de la cabeza, sino de la pareja cabeza más token: la cabeza busca algo que `madre` tiene en esa oración y `Gregorio` no.
+
+La comparación 2 pone a prueba si ese comportamiento léxico sobrevive a un cambio de contexto:
+
+| | Oración | Tokens | Otros parentescos |
+| --- | --- | --- | --- |
+| 1 | `La madre había querido visitar a Gregorio ... pero el padre y la hermana ...` | 44 | `padre`, `hermana` |
+| 2 | `La madre acudió eufórica, pero se quedó muda al llegar a la puerta.` | 20 | ninguno |
+
+El control es bueno: en las dos oraciones `madre` ocupa el índice 2, va precedida del determinante `La` y cumple la función de sujeto. Se mantienen constantes la posición, la función sintáctica, la capa, la cabeza y el token. La única variable libre es si el resto de la oración contiene o no otros sustantivos de parentesco.
+
+Queda un factor sin controlar que conviene declarar al interpretar: las oraciones tienen distinta longitud, 44 frente a 20 tokens, de modo que el reparto uniforme de referencia pasa de 0,023 a 0,050. Un mismo valor absoluto pesa más en la oración corta.
+
+Sale en `results/attention_comparison_madre.txt`.
 
 ## Sobre el costo de cómputo
 
-Cada función es autocontenida: `getAttentions` y `getTopAttention` tokenizan y ejecutan el modelo por su cuenta, sin depender de resultados previos. Eso significa que las 8 tablas de la Parte C implican 8 pasadas hacia adelante sobre la misma oración, y que la Parte D repite la de `corpus[5]` una novena vez.
+Cada función es autocontenida: `getAttentions` y `getTopAttention` tokenizan y ejecutan el modelo por su cuenta, sin depender de resultados previos. Eso significa que las 8 tablas de la Parte C implican 8 pasadas hacia adelante sobre la misma oración, y que las dos comparaciones de la Parte D repiten la de `corpus[5]` dos veces más.
 
 Es una redundancia deliberada, no un descuido: es lo que permite llamar a cualquiera de estas funciones de forma aislada, sin preparar estado previo. Con oraciones de hasta 101 tokens y un modelo de 12 capas en CPU, el costo es imperceptible. En un corpus grande convendría calcular las atenciones una vez y pasarlas como argumento.

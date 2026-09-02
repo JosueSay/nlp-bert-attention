@@ -258,3 +258,11 @@ abundantes pliegues y pareciera que estaba allí por causalidad.
 ```
 
 El contraste es de función sintáctica sobre la misma forma superficial: `Gregorio` aparece en `corpus[5]` como objeto marcado por la preposición `a` (índice 8) y en `corpus[21]` como sujeto en posición inicial (índice 1). Es lo que la guía pide comparar, con la variable de la palabra controlada.
+
+La Parte D incluye una segunda comparación, `corpus[5]` frente a `corpus[19]`:
+
+```text
+La madre acudió eufórica, pero se quedó muda al llegar a la puerta.
+```
+
+Aquí el token analizado es `madre`, que en las dos oraciones ocupa el índice 2 y cumple la función de sujeto precedido de `La`. Lo que cambia es que `corpus[5]` contiene además `padre` y `hermana`, y `corpus[19]` no tiene ningún otro sustantivo de parentesco. El detalle de por qué se eligió ese par está en [Partes A, B, C y D](./03-partes-a-b-c-d.md).

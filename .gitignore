@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Modelos de Hugging Face descargados localmente
+# Se conserva la carpeta con .gitkeep, pero no su contenido (pesos, cientos de MB)
+models/*
+!models/.gitkeep

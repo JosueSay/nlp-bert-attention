@@ -1,0 +1,61 @@
+% ----------------- Fuentes -----------------
+\usepackage{fontspec}
+\setmainfont{DejaVu Sans}
+\setmonofont{DejaVu Sans Mono}
+\usepackage{microtype}
+\usepackage{setspace}
+\setstretch{1.5}
+
+% ----------------- Matemática -----------------
+\usepackage{amsmath,amssymb}
+
+% ----------------- Gráficos -----------------
+\usepackage{graphicx}
+\makeatletter
+% Nunca exceder ancho de texto ni alto de página
+\def\maxwidth{\ifdim\Gin@nat@width>\textwidth \textwidth \else \Gin@nat@width \fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight \textheight \else \Gin@nat@height \fi}
+\makeatother
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+
+% Centrar figuras creadas por pandoc
+\usepackage{etoolbox}
+\AtBeginEnvironment{figure}{\centering}
+
+% Flotantes
+\usepackage{float}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\floatpagefraction}{0.8}
+
+% Barreras por sección
+\usepackage[section]{placeins}
+
+% ----------------- Tablas compactas -----------------
+\usepackage{array,booktabs,longtable}
+% que ocupen todo el ancho disponible
+\usepackage{calc}
+\setlength{\LTleft}{0pt}
+\setlength{\LTright}{0pt}
+% reglas más pegadas (booktabs)
+\setlength{\aboverulesep}{0pt}
+\setlength{\belowrulesep}{0pt}
+% tamaño y espaciados (más pequeño)
+\newcommand{\TableTight}{%
+  \scriptsize
+  \setlength{\tabcolsep}{3pt}%
+  \renewcommand{\arraystretch}{1.1}%
+}
+\AtBeginEnvironment{table}{\TableTight}
+\AtBeginEnvironment{longtable}{\TableTight}
+\AtBeginEnvironment{tabular}{\scriptsize}
+
+% ----------------- Leyendas -----------------
+\usepackage[font=footnotesize,labelfont=bf]{caption}
+\captionsetup[table]{font=footnotesize,skip=4pt}
+\captionsetup[figure]{font=footnotesize,skip=6pt}
+
+% ----------------- Hipervínculos -----------------
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}
+
+% pandoc --from=markdown+implicit_figures+link_attributes 01-reflexion.md -o 01-reflexion.pdf --pdf-engine=xelatex -V geometry:top=0.67in -V geometry:bottom=0.67in -V geometry:left=0.85in -V geometry:right=0.85in -H header.tex --resource-path=.:images:./images

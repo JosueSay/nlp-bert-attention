@@ -2,6 +2,8 @@
 
 - [Enlace a repositorio](https://github.com/JosueSay/nlp-bert-attention)
 
+El corpus son dos páginas consecutivas de *La metamorfosis*, de Franz Kafka, en español: las páginas 22 y 23 del PDF proporcionado en el curso. El texto se conserva sin modificar en `data/corpus.txt` y se segmenta en 33 oraciones, de las cuales la última queda incompleta porque la frase continúa en la página siguiente. El modelo es `bert-base-multilingual-cased`, de 12 capas y 12 cabezas, cargado sin cabeza de tarea.
+
 Los tokens analizados son *madre* y *Gregorio* sobre `corpus[5]`, de 44 tokens, en las capas 2 y 8 y las cabezas 0 y 5. Son ocho tablas en total y la evidencia está en `results/attention_analysis.txt`. Un reparto uniforme sobre 44 tokens daría 0,023 por token, que sirve como base de comparación.
 
 ## ¿Qué tokens reciben mayor atención desde cada token seleccionado?

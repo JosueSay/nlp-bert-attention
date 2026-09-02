@@ -1,0 +1,237 @@
+Oración: De no haberle parecido oportuna tal medida, ella misma hubiera
+Tokens: ['[CLS]', 'De', 'no', 'haber', '##le', 'parecido', 'op', '##ort', '##una', 'tal', 'medida', ',', 'ella', 'misma', 'hubiera', '[SEP]']
+
+Oración: quitado la sábana, pues fácil era comprender que, para Gregorio, el aislarse
+Tokens: ['[CLS]', 'quit', '##ado', 'la', 's', '##ában', '##a', ',', 'pues', 'fácil', 'era', 'comprende', '##r', 'que', ',', 'para', 'Gregorio', ',', 'el', 'ai', '##slar', '##se', '[SEP]']
+
+Oración: no era nada agradable. Pero su hermana dejó la sábana tal como estaba, y
+Tokens: ['[CLS]', 'no', 'era', 'nada', 'ag', '##rada', '##ble', '.', 'Pero', 'su', 'hermana', 'dejó', 'la', 's', '##ában', '##a', 'tal', 'como', 'estaba', ',', 'y', '[SEP]']
+
+Oración: Gregorio, al levantar sigilosamente con la cabeza la punta de ésta, para ver
+Tokens: ['[CLS]', 'Gregorio', ',', 'al', 'leva', '##ntar', 'sig', '##ilo', '##samente', 'con', 'la', 'cabeza', 'la', 'punta', 'de', 'ésta', ',', 'para', 'ver', '[SEP]']
+
+Oración: como era acogida la nueva disposición, creyó adivinar en la joven una mirada
+Tokens: ['[CLS]', 'como', 'era', 'ac', '##ogi', '##da', 'la', 'nueva', 'disposición', ',', 'c', '##rey', '##ó', 'ad', '##ivi', '##nar', 'en', 'la', 'joven', 'una', 'mira', '##da', '[SEP]']
+
+Oración: de gratitud.
+Tokens: ['[CLS]', 'de', 'gra', '##tit', '##ud', '.', '[SEP]']
+
+Oración: Durante las dos primeras semanas, sus padres no se decidieron a entrar
+Tokens: ['[CLS]', 'Durante', 'las', 'dos', 'primeras', 'semanas', ',', 'sus', 'padres', 'no', 'se', 'decidieron', 'a', 'entrar', '[SEP]']
+
+Oración: a verle. A menudo los oyó alabar la actitud de la hermana, cuando hasta
+Tokens: ['[CLS]', 'a', 'ver', '##le', '.', 'A', 'menudo', 'los', 'o', '##yó', 'ala', '##bar', 'la', 'actitud', 'de', 'la', 'hermana', ',', 'cuando', 'hasta', '[SEP]']
+
+Oración: entonces solían, por el contrario, considerarla poco menos que una inútil.
+Tokens: ['[CLS]', 'entonces', 'sol', '##ían', ',', 'por', 'el', 'contrario', ',', 'considerar', '##la', 'poco', 'menos', 'que', 'una', 'in', '##úti', '##l', '.', '[SEP]']
+
+Oración: Los padres solían esperar ante la habitación de Gregorio mientras la
+Tokens: ['[CLS]', 'Los', 'padres', 'sol', '##ían', 'esperar', 'ante', 'la', 'habitación', 'de', 'Gregorio', 'mientras', 'la', '[SEP]']
+
+Oración: hermana la arreglaba, y en cuanto salía se hacían contar como estaba el
+Tokens: ['[CLS]', 'hermana', 'la', 'ar', '##reg', '##lab', '##a', ',', 'y', 'en', 'cuanto', 'sal', '##ía', 'se', 'hacía', '##n', 'contar', 'como', 'estaba', 'el', '[SEP]']
+
+Oración: cuarto, qué había comido Gregorio, cuál había sido su actitud y si daba
+Tokens: ['[CLS]', 'cuarto', ',', 'qué', 'había', 'com', '##ido', 'Gregorio', ',', 'cu', '##ál', 'había', 'sido', 'su', 'actitud', 'y', 'si', 'daba', '[SEP]']
+
+Oración: señales de mejoría.
+Tokens: ['[CLS]', 'señal', '##es', 'de', 'mejor', '##ía', '.', '[SEP]']
+
+Oración: La madre había querido visitar a Gregorio enseguida, pero el padre y la
+Tokens: ['[CLS]', 'La', 'madre', 'había', 'quer', '##ido', 'visitar', 'a', 'Gregorio', 'ens', '##egu', '##ida', ',', 'pero', 'el', 'padre', 'y', 'la', '[SEP]']
+
+Oración: hermana la habían hecho desistir con argumentos que Gregorio escuchó con
+Tokens: ['[CLS]', 'hermana', 'la', 'habían', 'hecho', 'des', '##istir', 'con', 'argumento', '##s', 'que', 'Gregorio', 'es', '##cu', '##chó', 'con', '[SEP]']
+
+Oración: la mayor atención y aprobó por entero. Más adelante tuvieron que
+Tokens: ['[CLS]', 'la', 'mayor', 'atención', 'y', 'ap', '##robó', 'por', 'enter', '##o', '.', 'Más', 'adelante', 'tuvieron', 'que', '[SEP]']
+
+Oración: impedírselo por la fuerza, y cuando exclamaba: «¡Dejadme entrar a ver a
+Tokens: ['[CLS]', 'im', '##ped', '##ír', '##sel', '##o', 'por', 'la', 'fuerza', ',', 'y', 'cuando', 'ex', '##clama', '##ba', ':', '«', '¡', 'De', '##jad', '##me', 'entrar', 'a', 'ver', 'a', '[SEP]']
+
+Oración: Gregorio! ¡Pobre hijo mío! ¿No comprendéis que necesito verle?», Gregorio
+Tokens: ['[CLS]', 'Gregorio', '!', '¡', 'Pob', '##re', 'hijo', 'mí', '##o', '!', '¿', 'No', 'comprend', '##éis', 'que', 'ne', '##cesi', '##to', 'ver', '##le', '?', '»', ',', 'Gregorio', '[SEP]']
+
+Oración: pensaba que tal vez fuera mejor que su madre entrase, no todos lo días, pero
+Tokens: ['[CLS]', 'pensa', '##ba', 'que', 'tal', 'vez', 'fuera', 'mejor', 'que', 'su', 'madre', 'entra', '##se', ',', 'no', 'todos', 'lo', 'días', ',', 'pero', '[SEP]']
+
+Oración: sí, por ejemplo, una vez a la semana: ella era mucho más comprensiva que la
+Tokens: ['[CLS]', 'sí', ',', 'por', 'ejemplo', ',', 'una', 'vez', 'a', 'la', 'semana', ':', 'ella', 'era', 'mucho', 'más', 'com', '##pre', '##nsi', '##va', 'que', 'la', '[SEP]']
+
+Oración: hermana, quien, pese a su indudable valor, al fin y al cabo no era más que
+Tokens: ['[CLS]', 'hermana', ',', 'quien', ',', 'pese', 'a', 'su', 'ind', '##uda', '##ble', 'valor', ',', 'al', 'fin', 'y', 'al', 'cabo', 'no', 'era', 'más', 'que', '[SEP]']
+
+Oración: una niña, que quizá sólo por juvenil inconsciencia había podido asumir tan
+Tokens: ['[CLS]', 'una', 'niña', ',', 'que', 'qui', '##zá', 'sólo', 'por', 'juvenil', 'in', '##cons', '##cie', '##ncia', 'había', 'pod', '##ido', 'as', '##umi', '##r', 'tan', '[SEP]']
+
+Oración: penosa tarea.
+Tokens: ['[CLS]', 'pen', '##osa', 'tarea', '.', '[SEP]']
+
+Oración: No tardó en cumplirse el deseo de Gregorio de ver a su madre. Durante
+Tokens: ['[CLS]', 'No', 'tard', '##ó', 'en', 'cumplir', '##se', 'el', 'deseo', 'de', 'Gregorio', 'de', 'ver', 'a', 'su', 'madre', '.', 'Durante', '[SEP]']
+
+Oración: el día, por consideración a sus padres, no se asomaba a la ventana, y en los
+Tokens: ['[CLS]', 'el', 'día', ',', 'por', 'considera', '##ción', 'a', 'sus', 'padres', ',', 'no', 'se', 'as', '##oma', '##ba', 'a', 'la', 'venta', '##na', ',', 'y', 'en', 'los', '[SEP]']
+
+Oración: dos metros cuadrados de suelo libre de su habitación casi no podía moverse.
+Tokens: ['[CLS]', 'dos', 'metros', 'cuadrados', 'de', 'suelo', 'libre', 'de', 'su', 'habitación', 'casi', 'no', 'podía', 'move', '##rse', '.', '[SEP]']
+
+Oración: Descansar tranquilo le era ya difícil durante la noche. La comida pronto dejó
+Tokens: ['[CLS]', 'Des', '##cans', '##ar', 'tra', '##n', '##qui', '##lo', 'le', 'era', 'ya', 'difícil', 'durante', 'la', 'noche', '.', 'La', 'comida', 'pronto', 'dejó', '[SEP]']
+
+Oración: de causarle placer, y para distraerse empezó a trepar zigzagueando por las
+Tokens: ['[CLS]', 'de', 'causar', '##le', 'placer', ',', 'y', 'para', 'dis', '##tra', '##erse', 'empezó', 'a', 'tre', '##par', 'zi', '##g', '##zag', '##ue', '##ando', 'por', 'las', '[SEP]']
+
+Oración: paredes y el techo. En el techo era donde más a gusto se encontraba: aquello
+Tokens: ['[CLS]', 'paredes', 'y', 'el', 'tech', '##o', '.', 'En', 'el', 'tech', '##o', 'era', 'donde', 'más', 'a', 'gusto', 'se', 'encontraba', ':', 'aquell', '##o', '[SEP]']
+
+Oración: era mucho mejor que estar echado en el suelo; respiraba mejor, y se
+Tokens: ['[CLS]', 'era', 'mucho', 'mejor', 'que', 'estar', 'e', '##cha', '##do', 'en', 'el', 'suelo', ';', 'resp', '##ira', '##ba', 'mejor', ',', 'y', 'se', '[SEP]']
+
+Oración: estremecía con una suave vibración. Un día Gregorio, casi feliz y
+Tokens: ['[CLS]', 'est', '##reme', '##cía', 'con', 'una', 'sua', '##ve', 'vi', '##bra', '##ción', '.', 'Un', 'día', 'Gregorio', ',', 'casi', 'feliz', 'y', '[SEP]']
+
+Oración: despreocupado, se desprendió del techo, con gran sorpresa suya, y se estrelló
+Tokens: ['[CLS]', 'despre', '##oc', '##upa', '##do', ',', 'se', 'despre', '##ndió', 'del', 'tech', '##o', ',', 'con', 'gran', 'sorpresa', 'suya', ',', 'y', 'se', 'est', '##rell', '##ó', '[SEP]']
+
+Oración: contra el suelo. Pero su cuerpo se había vuelto más resistente y, pese a la
+Tokens: ['[CLS]', 'contra', 'el', 'suelo', '.', 'Pero', 'su', 'cuerpo', 'se', 'había', 'vue', '##lto', 'más', 'res', '##istente', 'y', ',', 'pese', 'a', 'la', '[SEP]']
+
+Oración: fuerza del golpe, no se lastimó.
+Tokens: ['[CLS]', 'fuerza', 'del', 'golpe', ',', 'no', 'se', 'last', '##im', '##ó', '.', '[SEP]']
+
+Oración: Su hermana advirtió inmediatamente el nuevo entretenimiento de
+Tokens: ['[CLS]', 'Su', 'hermana', 'ad', '##vir', '##tió', 'inmediatamente', 'el', 'nuevo', 'entre', '##teni', '##miento', 'de', '[SEP]']
+
+Oración: Gregorio —tal vez dejase al trepar un leve rastro de baba—, y quiso hacer todo
+Tokens: ['[CLS]', 'Gregorio', '[UNK]', 'tal', 'vez', 'deja', '##se', 'al', 'tre', '##par', 'un', 'leve', 'rast', '##ro', 'de', 'ba', '##ba', '[UNK]', ',', 'y', 'qui', '##so', 'hacer', 'todo', '[SEP]']
+
+Oración: lo posible para facilitarle su actividad, quitando los muebles que le
+Tokens: ['[CLS]', 'lo', 'posible', 'para', 'facilitar', '##le', 'su', 'actividad', ',', 'quit', '##ando', 'los', 'mu', '##eb', '##les', 'que', 'le', '[SEP]']
+
+Oración: estorbaban, sobre todo el baúl y el escritorio. No podía hacerlo sola y
+Tokens: ['[CLS]', 'esto', '##rba', '##ban', ',', 'sobre', 'todo', 'el', 'ba', '##úl', 'y', 'el', 'escritor', '##io', '.', 'No', 'podía', 'hacerlo', 'sola', 'y', '[SEP]']
+
+Oración: tampoco se atrevía a pedir ayuda al padre; con la criada no podía contar,
+Tokens: ['[CLS]', 'tampoco', 'se', 'at', '##re', '##vía', 'a', 'pe', '##dir', 'ayuda', 'al', 'padre', ';', 'con', 'la', 'criada', 'no', 'podía', 'contar', ',', '[SEP]']
+
+Oración: pues la buena mujer, de unos sesenta años, aunque se había mostrado muy
+Tokens: ['[CLS]', 'pues', 'la', 'buena', 'mujer', ',', 'de', 'unos', 'ses', '##enta', 'años', ',', 'aunque', 'se', 'había', 'mostra', '##do', 'muy', '[SEP]']
+
+Oración: animosa desde la despedida de su antecesora, había rogado que le dejaran
+Tokens: ['[CLS]', 'ani', '##mosa', 'desde', 'la', 'des', '##ped', '##ida', 'de', 'su', 'ante', '##ceso', '##ra', ',', 'había', 'ro', '##gado', 'que', 'le', 'dejar', '##an', '[SEP]']
+
+Oración: tener siempre cerrada la puerta de la cocina, y no abrirla sino cuando la
+Tokens: ['[CLS]', 'tener', 'siempre', 'ce', '##rra', '##da', 'la', 'puerta', 'de', 'la', 'cocina', ',', 'y', 'no', 'abrir', '##la', 'sino', 'cuando', 'la', '[SEP]']
+
+Oración: llamasen. Por tanto, la única posibilidad era pedir ayuda a la madre en
+Tokens: ['[CLS]', 'llama', '##sen', '.', 'Por', 'tanto', ',', 'la', 'única', 'posibilidad', 'era', 'pe', '##dir', 'ayuda', 'a', 'la', 'madre', 'en', '[SEP]']
+
+Oración: ausencia del padre.
+Tokens: ['[CLS]', 'ausencia', 'del', 'padre', '.', '[SEP]']
+
+Oración: La madre acudió eufórica, pero se quedó muda al llegar a la puerta. La
+Tokens: ['[CLS]', 'La', 'madre', 'acu', '##dió', 'eu', '##f', '##órica', ',', 'pero', 'se', 'quedó', 'muda', 'al', 'llegar', 'a', 'la', 'puerta', '.', 'La', '[SEP]']
+
+Oración: hermana comprobó que todo estuviera en orden, y sólo entonces hizo pasar
+Tokens: ['[CLS]', 'hermana', 'com', '##pro', '##bó', 'que', 'todo', 'est', '##uv', '##iera', 'en', 'orden', ',', 'y', 'sólo', 'entonces', 'hizo', 'pasar', '[SEP]']
+
+Oración: a la madre. Gregorio había bajado la sábana más que de costumbre, de modo
+Tokens: ['[CLS]', 'a', 'la', 'madre', '.', 'Gregorio', 'había', 'baja', '##do', 'la', 's', '##ában', '##a', 'más', 'que', 'de', 'cost', '##um', '##bre', ',', 'de', 'modo', '[SEP]']
+
+Oración: que formara abundantes pliegues y pareciera que estaba allí por causalidad.
+Tokens: ['[CLS]', 'que', 'formar', '##a', 'abundant', '##es', 'pl', '##iegu', '##es', 'y', 'pare', '##cier', '##a', 'que', 'estaba', 'allí', 'por', 'causa', '##lidad', '.', '[SEP]']
+
+Oración: En esta ocasión no atisbó por debajo; renunció a ver a su madre, feliz de que
+Tokens: ['[CLS]', 'En', 'esta', 'ocasión', 'no', 'ati', '##s', '##bó', 'por', 'debajo', ';', 'ren', '##unció', 'a', 'ver', 'a', 'su', 'madre', ',', 'feliz', 'de', 'que', '[SEP]']
+
+Oración: por fin hubiese entrado a su habitación.
+Tokens: ['[CLS]', 'por', 'fin', 'hub', '##iese', 'entra', '##do', 'a', 'su', 'habitación', '.', '[SEP]']
+
+Oración: —Pasa, no se le ve —dijo la hermana, que seguramente llevaba a la
+Tokens: ['[CLS]', '[UNK]', 'Pas', '##a', ',', 'no', 'se', 'le', 've', '[UNK]', 'dijo', 'la', 'hermana', ',', 'que', 'seg', '##uramente', 'llevaba', 'a', 'la', '[SEP]']
+
+Oración: madre de la mano.
+Tokens: ['[CLS]', 'madre', 'de', 'la', 'mano', '.', '[SEP]']
+
+Oración: Gregorio oyó a las dos frágiles mujeres mover el viejo y pesado baúl; la
+Tokens: ['[CLS]', 'Gregorio', 'o', '##yó', 'a', 'las', 'dos', 'frá', '##gile', '##s', 'mujeres', 'move', '##r', 'el', 'viejo', 'y', 'pes', '##ado', 'ba', '##úl', ';', 'la', '[SEP]']
+
+Oración: hermana, animosa como siempre, hacía la mayor parte del esfuerzo, sin
+Tokens: ['[CLS]', 'hermana', ',', 'ani', '##mosa', 'como', 'siempre', ',', 'hacía', 'la', 'mayor', 'parte', 'del', 'esfuerzo', ',', 'sin', '[SEP]']
+
+Oración: hacer caso de las advertencias de la madre, que tenía miedo de que se
+Tokens: ['[CLS]', 'hacer', 'caso', 'de', 'las', 'ad', '##verte', '##ncias', 'de', 'la', 'madre', ',', 'que', 'tenía', 'mi', '##edo', 'de', 'que', 'se', '[SEP]']
+
+Oración: fatigara excesivamente.
+Tokens: ['[CLS]', 'fat', '##iga', '##ra', 'ex', '##cesi', '##vamente', '.', '[SEP]']
+
+Oración: Al cabo de un cuarto de hora, la madre dijo que era mejor dejar el baúl
+Tokens: ['[CLS]', 'Al', 'cabo', 'de', 'un', 'cuarto', 'de', 'hora', ',', 'la', 'madre', 'dijo', 'que', 'era', 'mejor', 'dejar', 'el', 'ba', '##úl', '[SEP]']
+
+Oración: donde estaba, en primer lugar porque era muy pesado y no acabarían antes
+Tokens: ['[CLS]', 'donde', 'estaba', ',', 'en', 'primer', 'lugar', 'porque', 'era', 'muy', 'pes', '##ado', 'y', 'no', 'acabar', '##ían', 'antes', '[SEP]']
+
+Oración: del regreso del padre; además, estando en medio de la habitación el baúl le
+Tokens: ['[CLS]', 'del', 'regreso', 'del', 'padre', ';', 'además', ',', 'estando', 'en', 'medio', 'de', 'la', 'habitación', 'el', 'ba', '##úl', 'le', '[SEP]']
+
+Oración: cortaría el paso a Gregorio; por último, tal vez a Gregorio no le agradara que
+Tokens: ['[CLS]', 'corta', '##ría', 'el', 'paso', 'a', 'Gregorio', ';', 'por', 'último', ',', 'tal', 'vez', 'a', 'Gregorio', 'no', 'le', 'ag', '##rada', '##ra', 'que', '[SEP]']
+
+Oración: se retirasen los muebles, sino todo lo contrario. La vista de las paredes
+Tokens: ['[CLS]', 'se', 'reti', '##rase', '##n', 'los', 'mu', '##eb', '##les', ',', 'sino', 'todo', 'lo', 'contrario', '.', 'La', 'vista', 'de', 'las', 'paredes', '[SEP]']
+
+Oración: desnudas la deprimía. ¿Por qué no había de sentir Gregorio lo mismo,
+Tokens: ['[CLS]', 'des', '##nud', '##as', 'la', 'de', '##pri', '##mí', '##a', '.', '¿', 'Por', 'qué', 'no', 'había', 'de', 'sentir', 'Gregorio', 'lo', 'mismo', ',', '[SEP]']
+
+Oración: acostumbrado desde hacía tiempo a los muebles de su cuarto? ¿No se sentiría
+Tokens: ['[CLS]', 'ac', '##ost', '##um', '##brado', 'desde', 'hacía', 'tiempo', 'a', 'los', 'mu', '##eb', '##les', 'de', 'su', 'cuarto', '?', '¿', 'No', 'se', 'sentir', '##ía', '[SEP]']
+
+Oración: como abandonado en la habitación vacía?
+Tokens: ['[CLS]', 'como', 'abandonado', 'en', 'la', 'habitación', 'va', '##cía', '?', '[SEP]']
+
+Oración: —Al quitar los muebles —continuó en voz muy baja, casi en un susurro,
+Tokens: ['[CLS]', '[UNK]', 'Al', 'quit', '##ar', 'los', 'mu', '##eb', '##les', '[UNK]', 'continuó', 'en', 'voz', 'muy', 'baja', ',', 'casi', 'en', 'un', 'sus', '##ur', '##ro', ',', '[SEP]']
+
+Oración: como si quisiese evitar a Gregorio, que no sabía exactamente dónde se
+Tokens: ['[CLS]', 'como', 'si', 'qui', '##sies', '##e', 'evitar', 'a', 'Gregorio', ',', 'que', 'no', 'sa', '##bía', 'exact', '##amente', 'dó', '##nde', 'se', '[SEP]']
+
+Oración: encontraba, hasta el sonido de su voz, pues estaba convencida de que no
+Tokens: ['[CLS]', 'encontraba', ',', 'hasta', 'el', 'sonido', 'de', 'su', 'voz', ',', 'pues', 'estaba', 'con', '##ven', '##cida', 'de', 'que', 'no', '[SEP]']
+
+Oración: entendía las palabras—, ¿no parecería que renunciábamos a toda esperanza de
+Tokens: ['[CLS]', 'enten', '##día', 'las', 'palabras', '[UNK]', ',', '¿', 'no', 'parecer', '##ía', 'que', 'ren', '##un', '##ci', '##ába', '##mos', 'a', 'toda', 'esperanza', 'de', '[SEP]']
+
+Oración: mejoría, y que lo abandonábamos sin más a su suerte? Yo creo que lo mejor
+Tokens: ['[CLS]', 'mejor', '##ía', ',', 'y', 'que', 'lo', 'abandon', '##ába', '##mos', 'sin', 'más', 'a', 'su', 'suerte', '?', 'Yo', 'c', '##reo', 'que', 'lo', 'mejor', '[SEP]']
+
+Oración: sería dejar el cuarto igual que antes, para que Gregorio, cuando vuelva a ser
+Tokens: ['[CLS]', 'sería', 'dejar', 'el', 'cuarto', 'igual', 'que', 'antes', ',', 'para', 'que', 'Gregorio', ',', 'cuando', 'vue', '##lva', 'a', 'ser', '[SEP]']
+
+Oración: uno de nosotros, lo encuentre todo como estaba y pueda olvidar más
+Tokens: ['[CLS]', 'uno', 'de', 'nos', '##otros', ',', 'lo', 'en', '##cu', '##ent', '##re', 'todo', 'como', 'estaba', 'y', 'pueda', 'ol', '##vida', '##r', 'más', '[SEP]']
+
+Oración: fácilmente este paréntesis.
+Tokens: ['[CLS]', 'fácilmente', 'este', 'par', '##ént', '##esis', '.', '[SEP]']
+
+Oración: Al oír estas palabras de la madre, Gregorio comprendió que la falta de
+Tokens: ['[CLS]', 'Al', 'o', '##ír', 'estas', 'palabras', 'de', 'la', 'madre', ',', 'Gregorio', 'comprend', '##ió', 'que', 'la', 'falta', 'de', '[SEP]']
+
+Oración: toda relación humana directa, unida a la monotonía de su nueva vida, debía
+Tokens: ['[CLS]', 'toda', 'relación', 'humana', 'directa', ',', 'uni', '##da', 'a', 'la', 'mono', '##ton', '##ía', 'de', 'su', 'nueva', 'vida', ',', 'debía', '[SEP]']
+
+Oración: de haber trastornado su mente en aquellos dos meses, pues de otro modo no
+Tokens: ['[CLS]', 'de', 'haber', 'tras', '##tor', '##nado', 'su', 'mente', 'en', 'aquellos', 'dos', 'meses', ',', 'pues', 'de', 'otro', 'modo', 'no', '[SEP]']
+
+Oración: podía explicarse su deseo de que vaciaran la habitación.
+Tokens: ['[CLS]', 'podía', 'explicar', '##se', 'su', 'deseo', 'de', 'que', 'va', '##ciar', '##an', 'la', 'habitación', '.', '[SEP]']
+
+Oración: ¿Acaso quería realmente que se convirtiese aquella confortable
+Tokens: ['[CLS]', '¿', 'A', '##cas', '##o', 'quería', 'realmente', 'que', 'se', 'con', '##vir', '##tiese', 'aquella', 'con', '##fortable', '[SEP]']
+
+Oración: habitación, con sus muebles familiares, en un desierto en el cual hubiera
+Tokens: ['[CLS]', 'habitación', ',', 'con', 'sus', 'mu', '##eb', '##les', 'familiares', ',', 'en', 'un', 'des', '##ierto', 'en', 'el', 'cual', 'hubiera', '[SEP]']
+
+Oración: podido, es verdad, trepar en todas las direcciones sin obstáculos, pero donde
+Tokens: ['[CLS]', 'pod', '##ido', ',', 'es', 'verdad', ',', 'tre', '##par', 'en', 'todas', 'las', 'dire', '##cciones', 'sin', 'ob', '##st', '##áculos', ',', 'pero', 'donde', '[SEP]']
+
